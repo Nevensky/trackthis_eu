@@ -14,7 +14,9 @@
           extend: {
             colors: {
               brand: {
-                50: '#f4f8ff', 100: '#e8f0ff', 200: '#cfe0ff', 300: '#a9c6ff', 400: '#7aa5ff', 500: '#4a82ff', 600: '#2f66e6', 700: '#254fb3', 800: '#1f428f', 900: '#1a3673'
+                50: '#f4f8ff', 100: '#e8f0ff', 200: '#cfe0ff', 300: '#a9c6ff',
+                400: '#7aa5ff', 500: '#4a82ff', 600: '#2f66e6',
+                700: '#254fb3', 800: '#1f428f', 900: '#1a3673'
               }
             },
             boxShadow: {
@@ -26,8 +28,6 @@
     </script>
 
     <meta name="theme-color" content="#ffffff" />
-
-    <!-- Open Graph -->
     <meta property="og:title" content="TrackThis — Telematics & IoT" />
     <meta property="og:description" content="Vertically integrated software + hardware for data acquisition, telematics, and telecommunications." />
     <meta property="og:type" content="website" />
@@ -69,7 +69,6 @@
       </defs>
       <rect width="100%" height="100%" fill="#f8fafc"></rect>
       <rect width="100%" height="100%" fill="url(#grid)"></rect>
-      <!-- Light "roads" curves -->
       <g stroke="#cbd5e1" stroke-width="1.5" fill="none" opacity="0.5">
         <path d="M-100 120 C 200 80, 400 160, 700 120" />
         <path d="M-80 300 C 220 260, 480 340, 820 300" />
@@ -81,25 +80,20 @@
     <main class="relative mx-auto flex max-w-5xl items-center justify-center px-6 py-24 sm:py-28">
       <section class="w-full">
         <div class="mx-auto max-w-3xl rounded-2xl border border-slate-200 bg-white/80 p-10 shadow-soft backdrop-blur">
-          <!-- Logo (uses attached SVG file placed as logo.svg in repo root) -->
-          <div class="mb-6 flex justify-center">
-            <img src="logo.svg" alt="TrackThis logo" class="h-16 w-auto" />
+          <!-- Larger logo, centered -->
+          <div class="mb-10 flex justify-center">
+            <img src="logo.svg" alt="TrackThis logo" class="h-28 w-auto" />
           </div>
 
-          <div class="space-y-2 text-center">
-            <h1 class="text-3xl font-semibold tracking-tight sm:text-4xl text-slate-900">TrackThis</h1>
-            <p class="text-slate-600">Telematics • IoT • Data Acquisition</p>
-          </div>
-
-          <p class="mx-auto mt-6 max-w-prose text-lg leading-relaxed text-slate-700">
+          <p class="mx-auto mt-2 max-w-prose text-lg leading-relaxed text-slate-700 text-center">
             We are a startup building <span class="font-medium text-slate-900">vertically integrated software and hardware</span> solutions for
             data acquisition, telematics, and telecommunications. We develop <span class="font-medium text-slate-900">custom solutions for small businesses</span>
-            and operate on cutting‑edge, low‑maintenance technologies—allowing us to offer an <span class="font-medium text-slate-900">excellent price‑to‑performance</span>
-            ratio and <span class="font-medium text-slate-900">dedicated support</span>. Because we control our technology stack end‑to‑end, we don’t depend on third parties when you need us most.
+            and operate on cutting-edge, low-maintenance technologies—allowing us to offer an <span class="font-medium text-slate-900">excellent price-to-performance</span>
+            ratio and <span class="font-medium text-slate-900">dedicated support</span>. Because we control our technology stack end-to-end, we don’t depend on third parties when you need us most.
           </p>
 
           <!-- Contact Card -->
-          <div class="mt-8 w-full rounded-xl border border-slate-200 bg-slate-50 p-6">
+          <div class="mt-10 w-full rounded-xl border border-slate-200 bg-slate-50 p-6">
             <h2 class="mb-4 text-lg font-medium text-slate-900">Contact</h2>
             <div class="grid gap-4 text-sm sm:grid-cols-2">
               <div>
@@ -121,10 +115,8 @@
             </div>
           </div>
 
-          <!-- CTA -->
           <div class="mt-6 flex flex-wrap items-center justify-center gap-3">
             <a href="mailto:info@trackthis.hr" class="inline-flex items-center justify-center rounded-xl border border-brand-200 bg-brand-600 px-4 py-2 text-sm font-medium text-white shadow hover:bg-brand-700 focus:outline-none focus:ring-2 focus:ring-brand-300">Get in touch</a>
-            <a href="#" class="inline-flex items-center justify-center rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-slate-700 shadow hover:bg-slate-50">Learn more</a>
           </div>
 
           <footer class="mt-6 text-center text-xs text-slate-500">
