@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TrackThis — Telematics & IoT</title>
+    <meta name="description" content="TrackThis builds vertically integrated software and hardware solutions for data acquisition, telematics, and telecommunications with excellent price-to-performance and dedicated support." />
+
+    <!-- Tailwind CSS (Play CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                50: '#f4f8ff', 100: '#e8f0ff', 200: '#cfe0ff', 300: '#a9c6ff', 400: '#7aa5ff', 500: '#4a82ff', 600: '#2f66e6', 700: '#254fb3', 800: '#1f428f', 900: '#1a3673'
+              }
+            },
+            boxShadow: {
+              soft: '0 10px 30px rgba(2,6,23,0.08)',
+            }
+          }
+        }
+      }
+    </script>
+
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="TrackThis — Telematics & IoT" />
+    <meta property="og:description" content="Vertically integrated software + hardware for data acquisition, telematics, and telecommunications." />
+    <meta property="og:type" content="website" />
+
+    <style>
+      html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+    </style>
+
+    <!-- Structured data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "TrackThis",
+        "url": "https://trackthis.hr/",
+        "email": "info@trackthis.hr",
+        "vatID": "HR24917593316",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Avenija Dubrovnik 15 (Pav. 12)",
+          "postalCode": "10000",
+          "addressLocality": "Zagreb",
+          "addressCountry": "HR"
+        }
+      }
+    </script>
+  </head>
+  <body class="min-h-screen bg-white text-slate-800">
+    <!-- Decorative map-style background (SVG) -->
+    <svg class="pointer-events-none fixed inset-0 -z-10 opacity-40" aria-hidden="true" role="img">
+      <defs>
+        <linearGradient id="gridFade" x1="0" x2="0" y1="0" y2="1">
+          <stop offset="0%" stop-color="#94a3b8" stop-opacity="0.25" />
+          <stop offset="100%" stop-color="#cbd5e1" stop-opacity="0.10" />
+        </linearGradient>
+        <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+          <path d="M 80 0 L 0 0 0 80" fill="none" stroke="url(#gridFade)" stroke-width="1" />
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="#f8fafc"></rect>
+      <rect width="100%" height="100%" fill="url(#grid)"></rect>
+      <!-- Light "roads" curves -->
+      <g stroke="#cbd5e1" stroke-width="1.5" fill="none" opacity="0.5">
+        <path d="M-100 120 C 200 80, 400 160, 700 120" />
+        <path d="M-80 300 C 220 260, 480 340, 820 300" />
+        <path d="M-120 500 C 180 460, 460 540, 780 500" />
+        <path d="M-60 200 C 240 170, 520 230, 840 210" />
+      </g>
+    </svg>
+
+    <main class="relative mx-auto flex max-w-5xl items-center justify-center px-6 py-24 sm:py-28">
+      <section class="w-full">
+        <div class="mx-auto max-w-3xl rounded-2xl border border-slate-200 bg-white/80 p-10 shadow-soft backdrop-blur">
+          <!-- Logo (uses attached SVG file placed as logo.svg in repo root) -->
+          <div class="mb-6 flex justify-center">
+            <img src="logo.svg" alt="TrackThis logo" class="h-16 w-auto" />
+          </div>
+
+          <div class="space-y-2 text-center">
+            <h1 class="text-3xl font-semibold tracking-tight sm:text-4xl text-slate-900">TrackThis</h1>
+            <p class="text-slate-600">Telematics • IoT • Data Acquisition</p>
+          </div>
+
+          <p class="mx-auto mt-6 max-w-prose text-lg leading-relaxed text-slate-700">
+            We are a startup building <span class="font-medium text-slate-900">vertically integrated software and hardware</span> solutions for
+            data acquisition, telematics, and telecommunications. We develop <span class="font-medium text-slate-900">custom solutions for small businesses</span>
+            and operate on cutting‑edge, low‑maintenance technologies—allowing us to offer an <span class="font-medium text-slate-900">excellent price‑to‑performance</span>
+            ratio and <span class="font-medium text-slate-900">dedicated support</span>. Because we control our technology stack end‑to‑end, we don’t depend on third parties when you need us most.
+          </p>
+
+          <!-- Contact Card -->
+          <div class="mt-8 w-full rounded-xl border border-slate-200 bg-slate-50 p-6">
+            <h2 class="mb-4 text-lg font-medium text-slate-900">Contact</h2>
+            <div class="grid gap-4 text-sm sm:grid-cols-2">
+              <div>
+                <div class="text-slate-500">Address</div>
+                <address class="not-italic text-slate-800">Avenija Dubrovnik 15 (Pav. 12), 10000, Zagreb, Croatia</address>
+              </div>
+              <div>
+                <div class="text-slate-500">Email</div>
+                <a href="mailto:info@trackthis.hr" class="text-brand-700 underline decoration-brand-300 underline-offset-4 hover:decoration-brand-600">info@trackthis.hr</a>
+              </div>
+              <div>
+                <div class="text-slate-500">VAT ID / OIB</div>
+                <div class="text-slate-800">HR24917593316</div>
+              </div>
+              <div>
+                <div class="text-slate-500">MBS</div>
+                <div class="text-slate-800">081627419</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CTA -->
+          <div class="mt-6 flex flex-wrap items-center justify-center gap-3">
+            <a href="mailto:info@trackthis.hr" class="inline-flex items-center justify-center rounded-xl border border-brand-200 bg-brand-600 px-4 py-2 text-sm font-medium text-white shadow hover:bg-brand-700 focus:outline-none focus:ring-2 focus:ring-brand-300">Get in touch</a>
+            <a href="#" class="inline-flex items-center justify-center rounded-xl border border-slate-200 bg-white px-4 py-2 text-sm font-medium text-slate-700 shadow hover:bg-slate-50">Learn more</a>
+          </div>
+
+          <footer class="mt-6 text-center text-xs text-slate-500">
+            © <span id="y"></span> TrackThis j.d.o.o. All rights reserved.
+          </footer>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      document.getElementById('y').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
